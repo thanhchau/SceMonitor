@@ -1,0 +1,94 @@
+D:\TestProj\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.exe
+D:\TestProj\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.deps.json
+D:\TestProj\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.runtimeconfig.json
+D:\TestProj\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.dll
+D:\TestProj\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.pdb
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Form1.resources
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.GenerateResource.cache
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfoInputs.cache
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfo.cs
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.CoreCompileInputs.cache
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.dll
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\refint\SEMonitor.dll
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.pdb
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.genruntimeconfig.cache
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\ref\SEMonitor.dll
+D:\TestProj\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Properties.Resources.resources
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.exe
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.deps.json
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.runtimeconfig.json
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Form1.resources
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Properties.Resources.resources
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfo.cs
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\refint\SEMonitor.dll
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.genruntimeconfig.cache
+C:\Users\Admin\Desktop\TestOkProject\New folder\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\ref\SEMonitor.dll
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.exe
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.deps.json
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.runtimeconfig.json
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Form1.resources
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Properties.Resources.resources
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.sourcelink.json
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\refint\SEMonitor.dll
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Diaproject\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\ref\SEMonitor.dll
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.exe
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.deps.json
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.runtimeconfig.json
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Form1.resources
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Properties.Resources.resources
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfo.cs
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.sourcelink.json
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.CopyComplete
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\refint\SEMonitor.dll
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.genruntimeconfig.cache
+C:\Users\Admin\Desktop\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\ref\SEMonitor.dll
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.exe
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.deps.json
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.runtimeconfig.json
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Form1.resources
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.Properties.Resources.resources
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.AssemblyInfo.cs
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.sourcelink.json
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.csproj.CopyComplete
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.dll
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\refint\SEMonitor.dll
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.pdb
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\SEMonitor.genruntimeconfig.cache
+C:\Users\Admin\Desktop\240522\DiaprojectTest\SCE\SEMonitor\SEMonitor\obj\Debug\net8.0-windows\ref\SEMonitor.dll

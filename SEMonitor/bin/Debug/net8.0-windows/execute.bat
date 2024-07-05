@@ -1,0 +1,1 @@
+c:\imgc\imgc -ofTIF -f%1 %2

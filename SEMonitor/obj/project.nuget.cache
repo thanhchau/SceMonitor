@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0vm2VfSX070OvvU6nXlDLy9szIRjhIMGUOsO+wYPxdcJDvKIIrgdrlhuTwF//mxLO1Myf+366dCEfVqo79GGhQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\240522\\DiaprojectTest\\SCE\\SEMonitor\\SEMonitor\\SEMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
