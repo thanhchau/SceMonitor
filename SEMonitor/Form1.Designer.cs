@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             groupBox4 = new GroupBox();
             txtDb = new TextBox();
             label2 = new Label();
@@ -61,8 +62,8 @@
             txtlog2 = new TextBox();
             button8 = new Button();
             ClbtriggerEventOls = new System.Windows.Forms.Timer(components);
-            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -71,7 +72,6 @@
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -91,6 +91,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1122, 590);
             panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(6, 67);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(294, 143);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
             // 
             // groupBox4
             // 
@@ -392,16 +402,6 @@
             ClbtriggerEventOls.Interval = 1000;
             ClbtriggerEventOls.Tick += ClbtriggerEventOls_Tick;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(6, 67);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(294, 143);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -410,9 +410,10 @@
             Controls.Add(tabControl1);
             MaximizeBox = false;
             Name = "Form1";
-            Text = "SCEMONITOR  Allbuild0406";
+            Text = "Phần mềm theo dõi hành lý- DA NANG INTERNATIONAL AIRPORT";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
             groupBox3.ResumeLayout(false);
@@ -424,7 +425,6 @@
             tabPage2.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 

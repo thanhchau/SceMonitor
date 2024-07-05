@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a08e05f34278051440eebec01630b8944de4919f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a32140b9a735aa6dede0360311a01b2e5a3bc48")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
