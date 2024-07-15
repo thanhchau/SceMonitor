@@ -410,7 +410,7 @@
             Controls.Add(tabControl1);
             MaximizeBox = false;
             Name = "Form1";
-            Text = "Phần mềm theo dõi hành lý- DA NANG INTERNATIONAL AIRPORT";
+            Text = "Giám sát Theo dõi hành lý- DA NANG INTERNATIONAL AIRPORT";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

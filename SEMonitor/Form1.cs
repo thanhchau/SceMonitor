@@ -81,7 +81,7 @@ namespace SEMonitor
                     }
                     else
                     {
-                        WriteLog(ex.Message.ToString());
+                        //WriteLog(ex.Message.ToString());
                     }
 
                 }
@@ -106,7 +106,7 @@ namespace SEMonitor
             {
                 Directory.CreateDirectory(copyto + @"\export");
             }
-            lastwrite = getLastWrite(machineName);
+            lastwrite = await getLastWrite(machineName);
             if (directory.GetFileSystemInfos().Length != 0)
             {
                 var myFile = directory.GetFiles()
@@ -174,7 +174,8 @@ namespace SEMonitor
                         }
                         catch (Exception ex)
                         {
-                            WriteLog(ex.ToString());
+                            //WriteLog(ex.ToString());
+                            char cs;
                         }
                     }
                     else
@@ -191,27 +192,36 @@ namespace SEMonitor
             }
             //await Task.Yield();
         }
-        string getLastWrite(string lastwriteFile)
+        async Task<string> getLastWrite(string lastwriteFile)
         {
             string lastwrite = "no";
             string filename = lastwriteFile + ".txt";
-            if (File.Exists(filename))
+            try
             {
-                lastwrite = File.ReadAllText(filename);
-                lastwrite = lastwrite.Replace("\r\n", " ");
-                lastwrite = lastwrite.Trim();
-            }
-            else
-            {
-
-                using (FileStream fs = File.Create(filename))
+                if (File.Exists(filename))
                 {
-                    // Add some text to file
-                    Byte[] title = new UTF8Encoding(true).GetBytes("");
-                    fs.Write(title, 0, title.Length);
-
+                    lastwrite = File.ReadAllText(filename);
+                    lastwrite = lastwrite.Replace("\r\n", " ");
+                    lastwrite = lastwrite.Trim();
                 }
+                else
+                {
+
+                    using (FileStream fs = File.Create(filename))
+                    {
+                        // Add some text to file
+                        Byte[] title = new UTF8Encoding(true).GetBytes("");
+                        fs.Write(title, 0, title.Length);
+
+                    }
+                }
+
             }
+            catch(Exception ex)
+            {
+                return "no";
+            }
+         
             return lastwrite;
         }
         void WriteLog(string text)
@@ -386,7 +396,7 @@ namespace SEMonitor
             {
                 Directory.CreateDirectory(copyto + @"\export");
             }
-            lastwrite = getLastWrite(machineName);
+            lastwrite = await getLastWrite(machineName);
             if (directory.GetFileSystemInfos().Length != 0)
             {
                 var myFile = directory.GetFiles()
@@ -454,7 +464,8 @@ namespace SEMonitor
                         }
                         catch (Exception ex)
                         {
-                            WriteLog2(ex.ToString());
+                            //WriteLog2(ex.ToString());
+                            char cs2;
                         }
                     }
                     else
