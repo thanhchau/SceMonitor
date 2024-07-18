@@ -24,7 +24,7 @@ namespace SEMonitor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             String ip = (String)textBox1.Text;
             if (ip.Trim() != "")
             {
@@ -96,8 +96,9 @@ namespace SEMonitor
             string lastwrite = "no";
             string machineName = "";
             //machineName += "may" + i.ToString();
-            machineName = "may"+listBoxName.Items[i - 1].ToString();
-            string copyto = @"E:\alldata\" + machineName + @"\" + DateTime.Now.Year.ToString() + @"\" + DateTime.Now.Month.ToString().PadLeft(2, '0') + @"\" + DateTime.Today.Day.ToString().PadLeft(2, '0');
+            machineName = "may" + listBoxName.Items[i - 1].ToString();
+            string @copyto = @lblstore.Text;
+            copyto = copyto+@"\" + machineName + @"\" + DateTime.Now.Year.ToString() + @"\" + DateTime.Now.Month.ToString().PadLeft(2, '0') + @"\" + DateTime.Today.Day.ToString().PadLeft(2, '0');
             if (!Directory.Exists(copyto))
             {
                 Directory.CreateDirectory(copyto);
@@ -135,8 +136,8 @@ namespace SEMonitor
                                 string fileTiff = copyto + @"\export\" + myFile.Name + ".tif";
                                 string name1 = myFile.Name.Substring(0, myFile.Name.Length - 4);
                                 string fileTiff1 = copyto + @"\export\" + name1 + "_1.hif.tif";
-                                string[] pathnameNewjpg = ConvertTiffToJpeg(fileTiff);
-                                string[] pathnameNewjpg1 = ConvertTiffToJpeg(fileTiff1);
+                                string[] pathnameNewjpg = await ConvertTiffToJpeg(fileTiff);
+                                string[] pathnameNewjpg1 = await ConvertTiffToJpeg(fileTiff1);
                                 //-------------------Add New Record To DB
                                 //var url = "https://661e254198427bbbef038972.mockapi.io/baggage";
                                 try
@@ -164,7 +165,7 @@ namespace SEMonitor
                         }
 
                         //WriteLog(" copy " + myFile.Name+" to "+copyto);
-                       
+
                         try
                         {
                             StreamWriter sw = new StreamWriter(machineName + ".txt");
@@ -217,11 +218,11 @@ namespace SEMonitor
                 }
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return "no";
             }
-         
+
             return lastwrite;
         }
         void WriteLog(string text)
@@ -318,7 +319,7 @@ namespace SEMonitor
         {
             lstmapped.Items.Clear();
         }
-        public static string[] ConvertTiffToJpeg(string fileName)
+        public async Task<string[]> ConvertTiffToJpeg(string fileName)
         {
             using (Image imageFile = Image.FromFile(fileName))
             {
@@ -385,9 +386,10 @@ namespace SEMonitor
             string lastwrite = "no";
             string machineName = "";
             string machineName1 = "";
-            machineName = "machine"+ listBoxName.Items[i-1].ToString();
+            machineName = "machine" + listBoxName.Items[i - 1].ToString();
             machineName1 = "may" + listBoxName.Items[i - 1].ToString();
-            string copyto = @"E:\alldata\Clipboard\" + machineName + @"\" + DateTime.Now.Year.ToString() + @"\" + DateTime.Now.Month.ToString().PadLeft(2, '0') + @"\" + DateTime.Today.Day.ToString().PadLeft(2, '0');
+            string @copyto = lblstore.Text + @"\Clipboard";
+            copyto = copyto+@"\"+ machineName + @"\" + DateTime.Now.Year.ToString() + @"\" + DateTime.Now.Month.ToString().PadLeft(2, '0') + @"\" + DateTime.Today.Day.ToString().PadLeft(2, '0');
             if (!Directory.Exists(copyto))
             {
                 Directory.CreateDirectory(copyto);
@@ -425,8 +427,8 @@ namespace SEMonitor
                                 string fileTiff = copyto + @"\export\" + myFile.Name + ".tif";
                                 string name1 = myFile.Name.Substring(0, myFile.Name.Length - 4);
                                 string fileTiff1 = copyto + @"\export\" + name1 + "_1.hif.tif";
-                                string[] pathnameNewjpg = ConvertTiffToJpeg(fileTiff);
-                                string[] pathnameNewjpg1 = ConvertTiffToJpeg(fileTiff1);
+                                string[] pathnameNewjpg = await ConvertTiffToJpeg(fileTiff);
+                                string[] pathnameNewjpg1 = await ConvertTiffToJpeg(fileTiff1);
                                 /*//-------------------Add New Record To DB
                                 *//*var url = "https://661e254198427bbbef038972.mockapi.io/baggage";*/
                                 try
@@ -454,7 +456,7 @@ namespace SEMonitor
 
 
                         //WriteLog(" copy " + myFile.Name+" to "+copyto);
-                        
+
                         try
                         {
                             StreamWriter sw = new StreamWriter(machineName + ".txt");
@@ -507,6 +509,14 @@ namespace SEMonitor
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                lblstore.Text = folderBrowserDialog1.SelectedPath;
+            }
         }
     }
 }

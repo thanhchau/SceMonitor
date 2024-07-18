@@ -33,6 +33,9 @@
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             groupBox4 = new GroupBox();
+            lblstore = new Label();
+            button9 = new Button();
+            label4 = new Label();
             txtDb = new TextBox();
             label2 = new Label();
             progressBar1 = new ProgressBar();
@@ -62,6 +65,7 @@
             txtlog2 = new TextBox();
             button8 = new Button();
             ClbtriggerEventOls = new System.Windows.Forms.Timer(components);
+            folderBrowserDialog1 = new FolderBrowserDialog();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox4.SuspendLayout();
@@ -104,26 +108,56 @@
             // 
             // groupBox4
             // 
+            groupBox4.Controls.Add(lblstore);
+            groupBox4.Controls.Add(button9);
+            groupBox4.Controls.Add(label4);
             groupBox4.Controls.Add(txtDb);
             groupBox4.Controls.Add(label2);
             groupBox4.Location = new Point(306, 191);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(339, 76);
+            groupBox4.Size = new Size(339, 87);
             groupBox4.TabIndex = 7;
             groupBox4.TabStop = false;
-            groupBox4.Text = "Thông tin Database";
+            groupBox4.Text = "Thông tin Cơ bản";
+            // 
+            // lblstore
+            // 
+            lblstore.AutoSize = true;
+            lblstore.Location = new Point(177, 58);
+            lblstore.Name = "lblstore";
+            lblstore.Size = new Size(0, 15);
+            lblstore.TabIndex = 6;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(76, 54);
+            button9.Name = "button9";
+            button9.Size = new Size(79, 23);
+            button9.TabIndex = 5;
+            button9.Text = "Chọn";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 57);
+            label4.Name = "label4";
+            label4.Size = new Size(64, 15);
+            label4.TabIndex = 2;
+            label4.Text = "Nơi lưu trữ";
             // 
             // txtDb
             // 
-            txtDb.Location = new Point(9, 37);
+            txtDb.Location = new Point(74, 21);
             txtDb.Name = "txtDb";
-            txtDb.Size = new Size(311, 23);
+            txtDb.Size = new Size(254, 23);
             txtDb.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(11, 19);
+            label2.Location = new Point(6, 24);
             label2.Name = "label2";
             label2.Size = new Size(62, 15);
             label2.TabIndex = 0;
@@ -462,5 +496,9 @@
         private TextBox txtmachinename;
         private ListBox listBoxName;
         private PictureBox pictureBox1;
+        private Label label4;
+        private Label lblstore;
+        private Button button9;
+        private FolderBrowserDialog folderBrowserDialog1;
     }
 }
